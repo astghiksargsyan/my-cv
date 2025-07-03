@@ -1,0 +1,121 @@
+body, html, li, ul{
+	margin:0;
+	padding: 0;
+}
+ul{
+	list-style: none; 
+}
+.conteiner{
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+	padding: 40px 25px;
+	gap: 35px;
+	background-color: #F0F0F6;
+}
+
+.block-bg{
+	background-color: #fff;
+	 padding: 23px 25px;
+}
+.add-margin{
+	margin-top: 25px;
+}
+.social-netwoorks i {
+    padding-right: 7px;
+}
+.left-header{ 
+    text-align: center;
+}
+img.main-photo {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+.border-bottom{
+	padding-bottom: 25px;
+	border-bottom: 1px solid #F0F0F6;
+	padding-top: 17px;
+}
+.progress-bar-flex {
+    display: flex;
+    flex-direction: column;
+}
+.progress-bar-flex-label{
+	display: flex;
+	justify-content: space-between;
+}
+progress {
+    width: 100%;
+}
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.btn:hover {
+  background-color: RoyalBlue;
+}
+.download-button{
+	margin: 25px auto;
+	text-align: center;
+}
+/*right Part*/
+.blue-color-text{
+	color: #0078d7;
+}
+h2 {
+    font-size: 3rem;
+}
+.right-part-header{}
+.right-section-titles{
+	text-align: center;
+}
+.experience{
+	width: 100%;
+}
+span.job-title {
+    font-size: 20px;
+}
+span.place {
+    border: 1px solid #0078d7;
+    padding: 8px 16px;
+    background-color: #0078d7;
+    color: white;
+    display: inline-block;
+    margin-top: 16px;
+}
+h3{
+	font-size: 2rem;
+}
+.portfolio-list{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 25px;
+}
+.portfolio-list a img {
+    display: inline-block;
+    width: 100%;
+    transition: transform 1s;
+}
+.portfolio-list a img:hover {
+    display: inline-block;
+    width: 100%;
+    transform: scale(1.1);
+}
+footer {
+    text-align: center;
+    background-color: #f0f0f6;
+    padding: 25px;
+}
+.foother-text {
+    background-color: #fff;
+    padding: 27px;
+}
+@media screen and (max-width: 600px){
+	.conteiner{
+	   display:  block;
+    }
+}
