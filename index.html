@@ -167,10 +167,27 @@
 				</div>
 		</div>
 	
-
+</div>
 	</div>
 		<footer >
 			<p class="foother-text"> &copy; 2025. All rights reserved</p>
 		</footer>
+		
+		<div class="fixed-postion">
+			<label class="color-label">
+			<i class="fa-solid fa-palette" title="Pick a color for text"></i>
+			<input type="color" name="text-color" id="text-color" value="#ff00ff" >
+			</label>
+			
+		</div>
+		<script>
+			let textColor = document.querySelector("#text-color");
+			let container = document.querySelector(".conteiner");
+			console.log(textColor);
+			function setTextColor(){
+				container.style.color = textColor.value;
+			}
+			textColor.addEventListener("input", setTextColor);
+		</script>
 </body>
 </html>

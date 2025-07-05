@@ -139,6 +139,44 @@ footer {
     background-color: #fff;
     padding: 27px;
 }
+.fixed-postion i{
+    border-radius: 50%;
+    border: 1px solid #F0F0F6;
+    position: fixed;
+    top: 50%;
+    left: 2%;
+    background-color: #0078d7;
+    color: #efefef;
+    padding: 15px;
+    width: 63px;
+    height: 65px;
+    text-align: center;
+    display: inline;
+    font-size: 65px;
+}
+.fixed-postion i{
+    font-size: 65px;
+}
+.fixed-postion i:hover{
+    cursor: pointer;
+}
+.color-label {
+  align-items: center;
+  gap: 8px;
+  font-size: 20px;
+}
+
+#text-color {
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+input#text-color {
+    display: none;
+}
 @media screen and (max-width: 600px){
 	.conteiner{
 	   display:  block;
