@@ -183,9 +183,14 @@
 		<script>
 			let textColor = document.querySelector("#text-color");
 			let container = document.querySelector(".conteiner");
-			console.log(textColor);
+			let footer = document.querySelector("footer");
+			let links = document.querySelectorAll("a");
 			function setTextColor(){
 				container.style.color = textColor.value;
+				footer.style.color = textColor.value;
+				for(let i= 0; i< links.length; i++){
+					links[i].style.color = textColor.value;
+				}				
 			}
 			textColor.addEventListener("input", setTextColor);
 		</script>
